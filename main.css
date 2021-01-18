@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  background-color: #fafafa;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border: 3px solid black;
+  width: 90%;
+  max-width: 400px;
+  background-color: white;
+}
+.display {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+}
+.display-1 {
+  opacity: 0.4;
+  font-size: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.temp-result {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  opacity: 0.3;
+}
+.all_button {
+  color: grey;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+.button {
+  border: 0.5px solid rgba(92, 92, 92, 0.137);
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+  border: 1px solid #BCBBAB;
+}
+.button:nth-child(4){
+    font-size: 30px;
+    background-color: #324A47;
+    color: white;
+}
+.button:nth-child(8){
+    font-size: 25px;
+    background-color: #324A47;
+    color: white;
+}
+.button:nth-child(12){
+    font-size: 30px;
+    background-color: #324A47;
+    color: white;
+}
+.button:nth-child(16){
+    font-size: 30px;
+    background-color: #324A47;
+    color: white;
+}
+.button:nth-child(20){
+    font-size: 30px;
+    background-color: #D7C507;
+    color: white;
+}
+.button:nth-child(1){
+    font-size: 30px;
+    background-color: #EFEFEA;
+}
+.button:nth-child(2){
+    font-size: 30px;
+    background-color: #EFEFEA;
+}
+.button:nth-child(3){
+    font-size: 30px;
+    background-color: #EFEFEA;
+}
+.button:hover {
+  background-color: #99BEC6;
+}
